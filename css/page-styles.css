@@ -1,0 +1,1020 @@
+/* ===================================== 
+   CSS Page Styles
+======================================== */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* ===================================== 
+   Header
+======================================== */
+.header {
+	
+  	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 15px;
+  	
+ }
+ .header h1 {
+ 	color: white;
+ 	margin-right: auto;
+ 	
+
+ }
+
+ .header h3 {
+ 	color: white;
+ 	
+ }
+
+
+/* Dropdown button on hover & focus */
+
+.dropbtn:hover  {
+  	
+  	cursor: pointer;
+}
+
+.bell {
+	transition: .2s;
+}
+
+
+.notif-icon {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    margin-right: 10px;
+    margin-bottom: 35px;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+
+/* Links inside the dropdown */
+.dropdown-content p {
+  color: black;
+  padding: 12px 6px;
+  text-decoration: none;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {
+	background-color: #ddd;
+
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+	display:block;
+}
+
+
+#myDropdown li {
+	display: flex;
+	flex-direction: row;
+}
+
+#myDropdown p {
+	
+  
+  margin-top: -1px; /* Prevent double borders */
+  background-color: ;
+  border-right: none;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: inline-block;
+  position: relative;
+  widows: 150px;
+  padding-right: 10px;
+  
+
+
+
+}
+
+
+
+.close {
+cursor: pointer;
+margin-left: auto;
+margin-top: 20px; 
+padding: 10px;
+background-color:;
+  
+
+}
+
+.close:hover {
+	background:;
+}
+
+
+ .bell-container {
+	border-right-style:;
+	border-color: white;
+	background-color: ;
+	
+	width: 6%;
+}
+
+#member-alert {
+	display: inline-block;
+}
+
+
+
+.user {
+    border-left: 1px solid #FFFFFF;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+}
+
+
+
+.header-profile-image {
+	background-color:;
+	width: 50px;
+	margin: ;
+	padding: 8px;
+	margin-left: ;
+	border-radius: 45px;
+	
+}
+
+
+/* ===================================== 
+   Navigation
+======================================== */
+
+
+.navigation {
+	
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: ;
+}
+
+.navigation a {
+	background-color: ;
+	padding: 12px;
+	
+}
+
+
+.nav-image {
+	background-color: ;
+	width: 25px;
+
+}
+
+.nav-image:hover {
+	border-bottom-style: solid;
+	padding-bottom: 5px;
+	cursor: pointer;
+	border-color: red;
+
+}
+
+
+/* ===================================== 
+   Dashboard
+======================================== */
+
+.main-header {
+	background-color:;
+	display: flex;
+	justify-content: flex-start;
+
+		
+}	
+
+.headline { 
+	
+	margin-right: ;
+	color: #676666;
+	height:40px;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-color: ;
+}
+
+.main-header-search {
+	background-color:#FBFBFB;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	border-left: 1px solid #d8d8d8;
+	border-bottom: 1px solid #D8D8D8;
+	height: 60px;
+	width: 100%;
+	margin-left: 1rem;
+	padding-right: ;
+	padding-left: 15px;
+	border-radius: 2px;
+	padding-top: 2px;
+	background-color: ;
+	
+
+}
+
+input {
+	background-color: ;
+	margin-right: 20px;
+	
+	border-radius: 5px;
+	height: 40px;
+	width: 100%;
+	max-width: 400px;
+
+}
+
+
+/* ===================================== 
+  Alert Banner
+======================================== */
+
+
+.alert {
+	background-color:;
+	display: grid;
+	max-height: 50px;
+	padding: 0;
+	
+}
+
+.alert-banner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #7377BF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 0;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.alert-banner-close {
+    font-weight: normal;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
+/* ===================================== 
+   Traffic
+======================================== */
+
+
+.traffic {
+	background-color: ;
+}
+
+
+.traffic-header {
+	background-color: ;
+	display: flex;
+	flex-direction: row;
+	padding: 15px;
+
+	
+
+}
+
+
+
+
+.traffic-header h3 {
+	margin-right:auto;
+
+
+}
+
+.traffic-nav {
+    float: right;
+}
+
+.traffic-nav-link {
+	list-style: none;
+	display: inline-block;
+	margin: auto;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.traffic-nav-link:hover {
+	background-color: lightgreen;
+	cursor: pointer;
+	max-height: 35px;
+}
+
+
+
+/* ===================================== 
+   Chart div
+======================================== */
+
+
+
+
+
+
+/* ===================================== 
+   Daily Traffic
+======================================== */
+.chart-1 {
+    padding: 20px;
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    background-color: ;
+}
+#daily-chart {
+    max-width: 95%;
+    padding-bottom: 20px;
+}
+
+/* ===================================== 
+   Mobile Users
+======================================== */
+
+.chart-2 {
+	padding: 20px;
+}
+
+#mobile-chart {
+    max-width: 90%;
+    padding: 20px;
+}
+
+/* ===================================== 
+   Social Media info
+
+
+======================================== */
+.social-media-info {
+	padding: 10px;
+}
+
+
+.social-container {
+	
+   margin: auto; 
+    
+
+}
+
+.social-wrapper {
+    width: 275px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FBFBFB;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0px 25px;
+    margin: 20px;
+}
+
+
+.social-image {
+    background-color: #7477BF;
+    max-width: 70px;
+    padding: 15px;
+    border-radius: 55px;
+    height: 70px;
+}
+
+.social-text {
+    text-align: ;
+    background-color: none;
+}
+
+.social-id-text {
+	font-size: 1.5rem;
+    color: #7377BF;
+    margin: 1rem 0px 0px 0px;
+}
+
+.social-num {
+    font-size: 2.5rem;
+    color: #666666;
+    margin: 1px 0px 1rem 0px;
+}
+
+
+/* ===================================== 
+   New Members
+======================================== */
+
+
+.members-1,
+.members-2 {
+	padding: 10px 10px;
+}
+
+.profile-image {
+    border-radius: 75px;
+    max-width: 40%;
+    margin-right: 20px;
+}
+
+
+
+.members-container,
+.members-activity {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    background-color: ;
+}
+
+.members-container img,
+.members-activity img {
+    height: 50px;
+    margin-right:5px;
+}
+
+.members-text,
+.members-comments {
+    background-color: ;
+    width: 475px;
+    line-height: 1;
+    padding-top: 0px;
+}
+
+/* ===================================== 
+   Message & settings
+======================================== */
+
+.message-and-settings {
+	
+	background-color: pink;
+	padding:;
+}
+
+
+
+/* ===================================== 
+   Message User & Settings
+======================================== */
+.message, .settings {
+	
+	padding: 40px;
+}
+.widget-container {
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+}
+.form-field {
+    font-size: 20px;
+    max-width: 100%;
+    height: 35px;
+    margin-top: none;
+    margin-bottom: 7px;
+    padding-top: none;
+}
+
+input {
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+}
+#timezone {
+	width: 100%;
+}
+
+.form-area {
+    font-size: 20px;
+    height: 100px;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+
+#send {
+    height: 40px;
+    background-color: #7477bf;
+    border-radius: 10px;
+}
+
+
+/* ===================================== 
+   Settings
+======================================== */
+
+.toggles-switch {
+    background-color: ;
+    margin-bottom: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+    margin-right: 200px;
+}
+
+
+.switch input {
+    display: none;
+}
+
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #7477BF;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #7477BF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(55px);
+  -ms-transform: translateX(55px);
+  transform: translateX(55px);
+}
+
+/*------ ADDED CSS ---------*/
+.on
+{
+  display: none;
+}
+
+.on, .off
+{
+  color: white;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+input:checked+ .slider .on
+{display: block;}
+
+input:checked + .slider .off
+{display: none;}
+
+
+
+/*--------- END --------*/
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;}
+
+
+
+/* ===================================== 
+   Settings Buttons
+======================================== */
+.settings-button {
+    padding-top: 18px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 50px;
+}
+
+#save {
+    margin-right: 10px;
+}
+
+#cancel {
+    margin-left: 10px;
+}
+
+.button-primary, .button-disabled {
+    height: 40px;
+    background-color: #7477bf;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+.angle-brk {
+		font-size: 2.5em;
+		background-color: ;
+	}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+	.bell-container {
+	border-right-style:;
+	border-color: white;
+	background-color: ;
+	
+	width: 35px;
+	padding-right: ;
+	
+
+
+}
+
+.header-profile-image {
+	background-color:;
+	width: 55px;
+	margin: ;
+	padding: 8px;
+	margin-left: ;
+	border-radius: 45px;
+	
+}
+
+
+.navigation {
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: flex-start;
+	background-color:;
+}
+
+
+
+.navigation a {
+	background-color: ;
+	padding: 16px;
+	margin:;
+}
+
+.nav-image {
+	background-color:;
+	width: 30px;
+
+}
+
+
+.social-media-info {
+	display: flex;
+	flex-direction: column;
+}
+.social-container {
+	display: flex;
+
+	justify-content: center;
+	align-content: center;
+	background-color: ;
+}
+
+.social-wrapper {
+    max-width: 200px;
+    height: 100px;
+    display: flex;
+    
+    background-color: #FBFBFB;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px 25px;
+    margin: 20px 20px;
+}
+
+
+
+.social-image {
+    background-color: #7477BF;
+    max-width: 50px;
+    padding: 10px;
+    border-radius: 55px;
+    height: 50px;
+}
+
+
+.twitter-svg {
+	height: 30px;
+
+}
+
+.facebook-svg {
+	padding-right: 25px;
+	padding-bottom: 25px;
+	height: 55px;
+}
+.social-text {
+	margin-left: auto;
+}
+.social-id-text {
+    font-size: 1rem;
+    color: #7377BF;
+    margin: 1rem 0px 0px 0px;
+}
+
+.social-num {
+    font-size: 2rem;
+    color: #666666;
+    margin: 1px 0px 1rem 0px;
+}
+
+/* ===================================== 
+   Daily Traffic
+======================================== */
+
+#daily-chart {
+    max-width: 85%;
+    padding: 20px;
+}
+
+/* ===================================== 
+   Mobile Users
+======================================== */
+
+
+
+#mobile-chart {
+    max-width: 85%;
+    padding: 20px;
+}
+
+
+
+
+.members-text {
+    background-color: ;
+    max-width: 300px;
+    line-height: 1;
+    padding-top: 0px;
+}
+
+
+.members-comments {
+	max-width: 340px;
+	background-color: ;
+}
+
+.members-text,
+.members-comments {
+	margin-right: auto;
+}
+
+
+
+.message, .settings {
+    padding: 20px;
+}
+
+.message-and-settings {
+	
+	background-color: pink;
+	padding: 0;
+}
+
+
+.switch {
+    
+    margin-right: 100px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+
+
+
+	.social-media-info {
+   grid-template-columns: repeat(3, 1fr);
+}
+	
+	
+
+/* ===================================== 
+   Desktop Header
+======================================== */
+
+
+
+	.bell-container {
+	border-right-style: ;
+	border-color: ;
+	background-color: ;
+	
+	width: ;
+	height: ;
+	padding: ;
+
+}
+
+.header-profile-image {
+	background-color: ;
+	width: 50px;
+	padding: ;
+	margin-left: ;
+	border-radius: 95px;
+	
+}
+
+
+/* ===================================== 
+  Desktop Navigation
+======================================== */
+
+
+.navigation {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+	
+	background-color: ;
+}
+
+.navigation a {
+	background-color: ;
+	padding: 12px;
+	
+}
+
+
+.nav-image {
+	background-color: ;
+	width: 30px;
+	margin-top: 10px;
+
+}
+
+
+/* ===================================== 
+   Desktop Social Media
+======================================== */
+
+
+.social-media-info {
+	display: flex;
+	flex-direction: column;
+}
+.social-container {
+
+	max-width: 100%;
+	margin: 10px auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: ;
+
+}
+
+.social-wrapper {
+    max-width: 250px;
+    display: flex;
+    flex-direction: flex-start;
+    background-color: #FBFBFB;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 30px;
+    background-color: ;
+}
+
+.twitter-svg,
+.facebook-svg,
+.google-svg {
+	height: 30px;
+}
+
+.facebook-svg {
+	padding-right: 25px;
+	height: 70px; 
+	padding-bottom: 40px;
+}
+.social-image {
+    background-color: #7477BF;
+    width: 85px;
+    padding: 10px;
+    border-radius: 65px;
+    height: 50px;
+}
+
+.social-text {
+    margin-right:;
+    background-color: ;
+}
+.social-id-text {
+    font-size: 1rem;
+    color: #7377BF;
+    margin: 1rem 0px 0px 0px;
+}
+
+.social-num {
+    font-size: 2rem;
+    color: #666666;
+    margin: 1px 0px 1rem 0px;
+}
+.angle-brk {
+		font-size: 2.5em;
+		background-color: ;
+	}
+
+.form-field {
+		max-width: 100%;
+	}
+
+.switch {
+    
+    margin-right: 120px;
+}
+
+}
